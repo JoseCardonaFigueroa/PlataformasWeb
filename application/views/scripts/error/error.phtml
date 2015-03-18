@@ -1,0 +1,13 @@
+<html>
+<head>
+	<title>Application Error</title>
+</head>
+<body>
+	<h1>An error ocurred</h1>
+	<?php if(isset($this->exception)): ?>
+	<p><b>Message:</b><?php echo $this->exception->getMessage(); ?></p>
+	<h3>Stack trace:</h3>
+	<pre><?php echo var_export($this->request->getParams(), true)?></pre>
+	<?php endif;?>
+</body>
+</html>

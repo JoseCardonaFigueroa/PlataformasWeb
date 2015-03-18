@@ -1,0 +1,56 @@
+#
+# Environment : Development
+# App User    : dev_username
+# Password    : dev_password
+#
+development_tns =
+    (DESCRIPTION =
+        (ADDRESS =
+            (PROTOCOL  = TCP)
+            (COMMUNITY = TCP.corporate.ge.com)
+            (HOST      = xxxxxxxxxxxx.corporate.ge.com)
+            (PORT      = 0000)
+        )
+        (CONNECT_DATA =
+            (SID         = xxxxxxxx)
+            (GLOBAL_NAME = xxxxxxxxxxxx)
+        )
+    )
+
+#
+# Environment : UAT
+# App User    : uat_username
+# Password    : uat_password
+#
+stage_tns =
+    (DESCRIPTION =
+        (ADDRESS =
+            (PROTOCOL  = TCP)
+            (COMMUNITY = TCP.corporate.ge.com)
+            (HOST      = xxxxxxxxxxxx.corporate.ge.com)
+            (PORT      = 0000)
+        )
+        (CONNECT_DATA =
+            (SID         = xxxxxxxx)
+            (GLOBAL_NAME = xxxxxxxxxxxx)
+        )
+    )
+
+#
+# Environment : Production
+# App User    : prod_username
+# Password    : prod_password
+#
+production_tns =
+    (DESCRIPTION =
+        (ADDRESS =
+            (PROTOCOL  = TCP)
+            (COMMUNITY = TCP.corporate.ge.com)
+            (HOST      = xxxxxxxxxxxx.corporate.ge.com)
+            (PORT      = 0000)
+        )
+        (CONNECT_DATA =
+            (SID         = xxxxxxxx)
+            (GLOBAL_NAME = xxxxxxxxxxxx)
+        )
+    )

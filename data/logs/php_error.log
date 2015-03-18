@@ -1,0 +1,215 @@
+[04-Mar-2015 00:23:08] PHP Fatal error:  Uncaught exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (error)' in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Dispatcher/Standard.php:2
+Stack trace:
+#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application/Bootstrap/Bootstrap.php(2): Zend_Controller_Front->dispatch()
+#2 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application.php(2): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\xampplite\htdocs\project\public\index.php(29): Zend_Application->run()
+#4 {main}
+
+Next exception 'Zend_Controller_Exception' with message 'Invalid controller specified (error)#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controlle in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Plugin/Broker.php on line 2
+[04-Mar-2015 00:23:13] PHP Fatal error:  Uncaught exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (error)' in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Dispatcher/Standard.php:2
+Stack trace:
+#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application/Bootstrap/Bootstrap.php(2): Zend_Controller_Front->dispatch()
+#2 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application.php(2): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\xampplite\htdocs\project\public\index.php(29): Zend_Application->run()
+#4 {main}
+
+Next exception 'Zend_Controller_Exception' with message 'Invalid controller specified (error)#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controlle in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Plugin/Broker.php on line 2
+[04-Mar-2015 00:23:14] PHP Fatal error:  Uncaught exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (error)' in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Dispatcher/Standard.php:2
+Stack trace:
+#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application/Bootstrap/Bootstrap.php(2): Zend_Controller_Front->dispatch()
+#2 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application.php(2): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\xampplite\htdocs\project\public\index.php(29): Zend_Application->run()
+#4 {main}
+
+Next exception 'Zend_Controller_Exception' with message 'Invalid controller specified (error)#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controlle in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Plugin/Broker.php on line 2
+[05-Mar-2015 17:54:49] PHP Fatal error:  Uncaught exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (error)' in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Dispatcher/Standard.php:2
+Stack trace:
+#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application/Bootstrap/Bootstrap.php(2): Zend_Controller_Front->dispatch()
+#2 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application.php(2): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\xampplite\htdocs\project\public\index.php(29): Zend_Application->run()
+#4 {main}
+
+Next exception 'Zend_Controller_Exception' with message 'Invalid controller specified (error)#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controlle in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Plugin/Broker.php on line 2
+[05-Mar-2015 17:54:53] PHP Fatal error:  Uncaught exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (error)' in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Dispatcher/Standard.php:2
+Stack trace:
+#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application/Bootstrap/Bootstrap.php(2): Zend_Controller_Front->dispatch()
+#2 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application.php(2): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\xampplite\htdocs\project\public\index.php(29): Zend_Application->run()
+#4 {main}
+
+Next exception 'Zend_Controller_Exception' with message 'Invalid controller specified (error)#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controlle in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Plugin/Broker.php on line 2
+[05-Mar-2015 17:54:55] PHP Fatal error:  Uncaught exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (error)' in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Dispatcher/Standard.php:2
+Stack trace:
+#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application/Bootstrap/Bootstrap.php(2): Zend_Controller_Front->dispatch()
+#2 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application.php(2): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\xampplite\htdocs\project\public\index.php(29): Zend_Application->run()
+#4 {main}
+
+Next exception 'Zend_Controller_Exception' with message 'Invalid controller specified (error)#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controlle in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Plugin/Broker.php on line 2
+[05-Mar-2015 17:56:12] PHP Fatal error:  Uncaught exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (error)' in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Dispatcher/Standard.php:2
+Stack trace:
+#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application/Bootstrap/Bootstrap.php(2): Zend_Controller_Front->dispatch()
+#2 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application.php(2): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\xampplite\htdocs\project\public\index.php(29): Zend_Application->run()
+#4 {main}
+
+Next exception 'Zend_Controller_Exception' with message 'Invalid controller specified (error)#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controlle in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Plugin/Broker.php on line 2
+[05-Mar-2015 18:09:11] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'DirectoryIterator::__construct(C:\xampplite\htdocs\project\application/modules) [<a href='directoryiterator.--construct'>directoryiterator.--construct</a>]: failed to open dir: No such file or directory' in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php:2
+Stack trace:
+#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): DirectoryIterator->__construct('C:\xampplite\ht...')
+#1 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application/Resource/Frontcontroller.php(2): Zend_Controller_Front->addModuleDirectory('C:\xampplite\ht...')
+#2 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application/Bootstrap/BootstrapAbstract.php(2): Zend_Application_Resource_Frontcontroller->init()
+#3 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application/Bootstrap/BootstrapAbstract.php(2): Zend_Application_Bootstrap_BootstrapAbstract->_executeResource('frontcontroller')
+#4 p in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php on line 2
+[05-Mar-2015 18:09:44] PHP Fatal error:  Uncaught exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (error)' in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Dispatcher/Standard.php:2
+Stack trace:
+#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application/Bootstrap/Bootstrap.php(2): Zend_Controller_Front->dispatch()
+#2 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application.php(2): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\xampplite\htdocs\project\public\index.php(29): Zend_Application->run()
+#4 {main}
+
+Next exception 'Zend_Controller_Exception' with message 'Invalid controller specified (error)#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controlle in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Plugin/Broker.php on line 2
+[05-Mar-2015 18:30:53] PHP Fatal error:  Uncaught exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (error)' in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Dispatcher/Standard.php:2
+Stack trace:
+#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application/Bootstrap/Bootstrap.php(2): Zend_Controller_Front->dispatch()
+#2 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application.php(2): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\xampplite\htdocs\project\public\index.php(29): Zend_Application->run()
+#4 {main}
+
+Next exception 'Zend_Controller_Exception' with message 'Invalid controller specified (error)#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controlle in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Plugin/Broker.php on line 2
+[05-Mar-2015 18:31:47] PHP Fatal error:  Uncaught exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (error)' in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Dispatcher/Standard.php:2
+Stack trace:
+#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application/Bootstrap/Bootstrap.php(2): Zend_Controller_Front->dispatch()
+#2 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application.php(2): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\xampplite\htdocs\project\public\index.php(29): Zend_Application->run()
+#4 {main}
+
+Next exception 'Zend_Controller_Exception' with message 'Invalid controller specified (error)#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controlle in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Plugin/Broker.php on line 2
+[05-Mar-2015 18:39:48] PHP Fatal error:  Uncaught exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (error)' in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Dispatcher/Standard.php:2
+Stack trace:
+#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application/Bootstrap/Bootstrap.php(2): Zend_Controller_Front->dispatch()
+#2 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application.php(2): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\xampplite\htdocs\project\public\index.php(29): Zend_Application->run()
+#4 {main}
+
+Next exception 'Zend_Controller_Exception' with message 'Invalid controller specified (error)#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controlle in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Plugin/Broker.php on line 2
+[05-Mar-2015 18:40:41] PHP Fatal error:  Uncaught exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (error)' in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Dispatcher/Standard.php:2
+Stack trace:
+#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application/Bootstrap/Bootstrap.php(2): Zend_Controller_Front->dispatch()
+#2 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application.php(2): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\xampplite\htdocs\project\public\index.php(29): Zend_Application->run()
+#4 {main}
+
+Next exception 'Zend_Controller_Exception' with message 'Invalid controller specified (error)#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controlle in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Plugin/Broker.php on line 2
+[05-Mar-2015 18:42:01] PHP Fatal error:  Uncaught exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (error)' in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Dispatcher/Standard.php:2
+Stack trace:
+#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application/Bootstrap/Bootstrap.php(2): Zend_Controller_Front->dispatch()
+#2 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application.php(2): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\xampplite\htdocs\project\public\index.php(29): Zend_Application->run()
+#4 {main}
+
+Next exception 'Zend_Controller_Exception' with message 'Invalid controller specified (error)#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controlle in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Plugin/Broker.php on line 2
+[05-Mar-2015 18:46:41] PHP Fatal error:  Uncaught exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (error)' in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Dispatcher/Standard.php:2
+Stack trace:
+#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application/Bootstrap/Bootstrap.php(2): Zend_Controller_Front->dispatch()
+#2 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application.php(2): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\xampplite\htdocs\project\public\index.php(29): Zend_Application->run()
+#4 {main}
+
+Next exception 'Zend_Controller_Exception' with message 'Invalid controller specified (error)#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controlle in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Plugin/Broker.php on line 2
+[05-Mar-2015 18:47:10] PHP Fatal error:  Uncaught exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (error)' in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Dispatcher/Standard.php:2
+Stack trace:
+#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application/Bootstrap/Bootstrap.php(2): Zend_Controller_Front->dispatch()
+#2 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application.php(2): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\xampplite\htdocs\project\public\index.php(29): Zend_Application->run()
+#4 {main}
+
+Next exception 'Zend_Controller_Exception' with message 'Invalid controller specified (error)#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controlle in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Plugin/Broker.php on line 2
+[05-Mar-2015 18:47:38] PHP Fatal error:  Uncaught exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (error)' in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Dispatcher/Standard.php:2
+Stack trace:
+#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application/Bootstrap/Bootstrap.php(2): Zend_Controller_Front->dispatch()
+#2 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application.php(2): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\xampplite\htdocs\project\public\index.php(29): Zend_Application->run()
+#4 {main}
+
+Next exception 'Zend_Controller_Exception' with message 'Invalid controller specified (error)#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controlle in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Plugin/Broker.php on line 2
+[05-Mar-2015 19:07:02] PHP Warning:  include_once(Custom\Db\Table\Abstract.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Loader.php on line 2
+[05-Mar-2015 19:07:02] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'Custom\Db\Table\Abstract.php' for inclusion (include_path='C:\xampplite\htdocs\project\library;C:\xampplite\htdocs\project\application\models;C:\xampplite\htdocs\project\application\forms;phar://C:/xampplite/htdocs/project/library/Zend.phar;.;C:\xampplite\php\PEAR') in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Loader.php on line 2
+[05-Mar-2015 19:07:02] PHP Fatal error:  Class 'Custom_Db_Table_Abstract' not found in C:\xampplite\htdocs\project\application\models\DbTable\Model.php on line 3
+[05-Mar-2015 19:23:50] PHP Fatal error:  Uncaught exception 'Zend_Application_Bootstrap_Exception' with message 'Invalid method "boostrap"' in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application/Bootstrap/BootstrapAbstract.php:2
+Stack trace:
+#0 [internal function]: Zend_Application_Bootstrap_BootstrapAbstract->__call('boostrap', Array)
+#1 C:\xampplite\htdocs\project\application\Bootstrap.php(20): Bootstrap->boostrap('multidb')
+#2 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application/Bootstrap/BootstrapAbstract.php(2): Bootstrap->_initDB()
+#3 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application/Bootstrap/BootstrapAbstract.php(2): Zend_Application_Bootstrap_BootstrapAbstract->_executeResource('db')
+#4 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application/Bootstrap/BootstrapAbstract.php(2): Zend_Application_Bootstrap_BootstrapAbstract->_bootstrap(NULL)
+#5 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application.php(2): Zend_Application_Bootstrap_BootstrapAbstract->bootstrap in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application/Bootstrap/BootstrapAbstract.php on line 2
+[05-Mar-2015 19:24:12] PHP Warning:  include_once(Custom\Db\Table\Abstract.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Loader.php on line 2
+[05-Mar-2015 19:24:12] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'Custom\Db\Table\Abstract.php' for inclusion (include_path='C:\xampplite\htdocs\project\library;C:\xampplite\htdocs\project\application\models;C:\xampplite\htdocs\project\application\forms;phar://C:/xampplite/htdocs/project/library/Zend.phar;.;C:\xampplite\php\PEAR') in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Loader.php on line 2
+[05-Mar-2015 19:24:12] PHP Fatal error:  Class 'Custom_Db_Table_Abstract' not found in C:\xampplite\htdocs\project\application\models\DbTable\Model.php on line 3
+[05-Mar-2015 19:27:18] PHP Warning:  include_once(Custom\Db\Table\Abstract.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Loader.php on line 2
+[05-Mar-2015 19:27:18] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'Custom\Db\Table\Abstract.php' for inclusion (include_path='C:\xampplite\htdocs\project\library;C:\xampplite\htdocs\project\application\models;C:\xampplite\htdocs\project\application\forms;phar://C:/xampplite/htdocs/project/library/Zend.phar;.;C:\xampplite\php\PEAR') in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Loader.php on line 2
+[05-Mar-2015 19:27:18] PHP Fatal error:  Class 'Custom_Db_Table_Abstract' not found in C:\xampplite\htdocs\project\application\models\DbTable\Model.php on line 3
+[05-Mar-2015 19:30:12] PHP Fatal error:  Uncaught exception 'Zend_Controller_Dispatcher_Exception' with message 'Invalid controller specified (error)' in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Dispatcher/Standard.php:2
+Stack trace:
+#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#1 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application/Bootstrap/Bootstrap.php(2): Zend_Controller_Front->dispatch()
+#2 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application.php(2): Zend_Application_Bootstrap_Bootstrap->run()
+#3 C:\xampplite\htdocs\project\public\index.php(29): Zend_Application->run()
+#4 {main}
+
+Next exception 'Zend_Controller_Exception' with message 'Invalid controller specified (error)#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controlle in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Plugin/Broker.php on line 2
+[05-Mar-2015 19:44:43] PHP Parse error:  syntax error, unexpected ':', expecting ';' in C:\xampplite\htdocs\project\application\views\scripts\error\error.phtml on line 11
+[05-Mar-2015 20:40:01] PHP Fatal error:  Uncaught exception 'Zend_Controller_Action_Exception' with message 'Method "getInvoke" does not exist and was not trapped in __call()' in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Action.php:2
+Stack trace:
+#0 [internal function]: Zend_Controller_Action->__call('getInvoke', Array)
+#1 C:\xampplite\htdocs\project\application\controllers\ErrorController.php(48): ErrorController->getInvoke('bootstrap')
+#2 C:\xampplite\htdocs\project\application\controllers\ErrorController.php(34): ErrorController->getLog()
+#3 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Action.php(2): ErrorController->errorAction()
+#4 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Dispatcher/Standard.php(2): Zend_Controller_Action->dispatch('errorAction')
+#5 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#6 phar://C:/xa in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Plugin/Broker.php on line 2
+[05-Mar-2015 23:15:05] PHP Parse error:  syntax error, unexpected T_STRING, expecting T_VARIABLE in C:\xampplite\htdocs\project\application\models\DbTable\Model.php on line 22
+[05-Mar-2015 23:16:27] PHP Strict Standards:  Declaration of DbTable_Model::insert() should be compatible with that of Zend_Db_Table_Abstract::insert() in C:\xampplite\htdocs\project\application\models\DbTable\Model.php on line 3
+[05-Mar-2015 23:16:27] PHP Fatal error:  Uncaught exception 'Zend_Controller_Response_Exception' with message 'Cannot send headers; headers already sent in C:\xampplite\htdocs\project\application\models\DbTable\Model.php, line 3' in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Response/Abstract.php:2
+Stack trace:
+#0 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Response/Abstract.php(2): Zend_Controller_Response_Abstract->canSendHeaders(true)
+#1 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Response/Abstract.php(2): Zend_Controller_Response_Abstract->sendHeaders()
+#2 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Front.php(2): Zend_Controller_Response_Abstract->sendResponse()
+#3 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application/Bootstrap/Bootstrap.php(2): Zend_Controller_Front->dispatch()
+#4 phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Application.php(2): Zend_Application_Bootstrap_Bootstrap->run()
+#5 C:\xampplite\htdocs\projec in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Response/Abstract.php on line 2
+[05-Mar-2015 23:35:50] PHP Notice:  Undefined variable: value in C:\xampplite\htdocs\project\application\models\DbTable\Model.php on line 32
+[05-Mar-2015 23:35:50] PHP Notice:  Undefined variable: value in C:\xampplite\htdocs\project\application\models\DbTable\Model.php on line 35
+[16-Mar-2015 14:23:11 America/New_York] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Exception' with message 'Configuration array must have a key for 'dbname' that names the database instance' in phar:///var/www/project/library/Zend.phar/Zend/Db/Adapter/Abstract.php:2
+Stack trace:
+#0 phar:///var/www/project/library/Zend.phar/Zend/Db/Adapter/Abstract.php(2): Zend_Db_Adapter_Abstract->_checkRequiredOptions(Array)
+#1 phar:///var/www/project/library/Zend.phar/Zend/Db.php(2): Zend_Db_Adapter_Abstract->__construct(Array)
+#2 phar:///var/www/project/library/Zend.phar/Zend/Application/Resource/Multidb.php(2): Zend_Db::factory('mysqli', Array)
+#3 phar:///var/www/project/library/Zend.phar/Zend/Application/Bootstrap/BootstrapAbstract.php(2): Zend_Application_Resource_Multidb->init()
+#4 phar:///var/www/project/library/Zend.phar/Zend/Application/Bootstrap/BootstrapAbstract.php(2): Zend_Application_Bootstrap_BootstrapAbstract->_executeResource('multidb')
+#5 phar:///var/www/project/library/Zend.phar/Zend/Application/Bootstrap/BootstrapAbstract.php(2): Zend_Application_Boot in phar:///var/www/project/library/Zend.phar/Zend/Db/Adapter/Abstract.php on line 2
+[16-Mar-2015 14:40:22 America/New_York] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Exception' with message 'Configuration array must have a key for 'dbname' that names the database instance' in phar:///var/www/project/library/Zend.phar/Zend/Db/Adapter/Abstract.php:2
+Stack trace:
+#0 phar:///var/www/project/library/Zend.phar/Zend/Db/Adapter/Abstract.php(2): Zend_Db_Adapter_Abstract->_checkRequiredOptions(Array)
+#1 phar:///var/www/project/library/Zend.phar/Zend/Db.php(2): Zend_Db_Adapter_Abstract->__construct(Array)
+#2 phar:///var/www/project/library/Zend.phar/Zend/Application/Resource/Multidb.php(2): Zend_Db::factory('mysqli', Array)
+#3 phar:///var/www/project/library/Zend.phar/Zend/Application/Bootstrap/BootstrapAbstract.php(2): Zend_Application_Resource_Multidb->init()
+#4 phar:///var/www/project/library/Zend.phar/Zend/Application/Bootstrap/BootstrapAbstract.php(2): Zend_Application_Bootstrap_BootstrapAbstract->_executeResource('multidb')
+#5 phar:///var/www/project/library/Zend.phar/Zend/Application/Bootstrap/BootstrapAbstract.php(2): Zend_Application_Boot in phar:///var/www/project/library/Zend.phar/Zend/Db/Adapter/Abstract.php on line 2
