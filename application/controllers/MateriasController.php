@@ -4,15 +4,18 @@ class MateriasController extends Zend_Controller_Action {
 	private $_model = null;
 	
     public function init() {
-		$this->_model = new DbTable_Model();
+		//$this->_model = new DbTable_Model();
     }
 
     public function indexAction() {
-		$result = array();
+		//$result = array();
 		
-		$result = $this->_model->getAll();
+		//$result = $this->_model->getAll();
 		
-		die(print_r($result));
+		//die(print_r($result));
+		$msg='hola';
+		$out= array('msg' =>$msg);
+		$this->view->$out;
     }
 	
 	public function insertAction(){

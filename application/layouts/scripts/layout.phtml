@@ -1,17 +1,14 @@
-<!-- application/layouts/scripts/layout.phtml -->
-<?php echo $this->doctype() ?>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Title Demo</title>
-  <?php echo $this->headLink()->appendStylesheet('/css/global.css') ?>
+  <title>Escuelita-Zend</title>
+  <?php echo $this->headScript()->appendFile('/js/bootstrap.min.js', 'text/javascript')
+                                ->prependFile("/js/jquery.js", 'text/javascript')
+                                ->prependFile("/jquery-ui/jquery-ui.js")?>
+  <?php echo $this->headLink()->prependStylesheet('/css/bootstrap.min.css') ?>
+  <?php echo $this->headLink()->prependStylesheet('/jquery-ui/jquery-ui.css') ?>
+
 </head>
-<body>
-<div id="header" style="background-color: #EEEEEE; height: 30px;">
-     <b>Layout Header</b>
-</div>
- 
 <?php echo $this->layout()->content ?>
- 
 </body>
 </html>

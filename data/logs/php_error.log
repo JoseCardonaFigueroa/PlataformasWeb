@@ -197,19 +197,283 @@ Stack trace:
 #5 C:\xampplite\htdocs\projec in phar://C:/xampplite/htdocs/project/library/Zend.phar/Zend/Controller/Response/Abstract.php on line 2
 [05-Mar-2015 23:35:50] PHP Notice:  Undefined variable: value in C:\xampplite\htdocs\project\application\models\DbTable\Model.php on line 32
 [05-Mar-2015 23:35:50] PHP Notice:  Undefined variable: value in C:\xampplite\htdocs\project\application\models\DbTable\Model.php on line 35
-[16-Mar-2015 14:23:11 America/New_York] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Exception' with message 'Configuration array must have a key for 'dbname' that names the database instance' in phar:///var/www/project/library/Zend.phar/Zend/Db/Adapter/Abstract.php:2
-Stack trace:
-#0 phar:///var/www/project/library/Zend.phar/Zend/Db/Adapter/Abstract.php(2): Zend_Db_Adapter_Abstract->_checkRequiredOptions(Array)
-#1 phar:///var/www/project/library/Zend.phar/Zend/Db.php(2): Zend_Db_Adapter_Abstract->__construct(Array)
-#2 phar:///var/www/project/library/Zend.phar/Zend/Application/Resource/Multidb.php(2): Zend_Db::factory('mysqli', Array)
-#3 phar:///var/www/project/library/Zend.phar/Zend/Application/Bootstrap/BootstrapAbstract.php(2): Zend_Application_Resource_Multidb->init()
-#4 phar:///var/www/project/library/Zend.phar/Zend/Application/Bootstrap/BootstrapAbstract.php(2): Zend_Application_Bootstrap_BootstrapAbstract->_executeResource('multidb')
-#5 phar:///var/www/project/library/Zend.phar/Zend/Application/Bootstrap/BootstrapAbstract.php(2): Zend_Application_Boot in phar:///var/www/project/library/Zend.phar/Zend/Db/Adapter/Abstract.php on line 2
-[16-Mar-2015 14:40:22 America/New_York] PHP Fatal error:  Uncaught exception 'Zend_Db_Adapter_Exception' with message 'Configuration array must have a key for 'dbname' that names the database instance' in phar:///var/www/project/library/Zend.phar/Zend/Db/Adapter/Abstract.php:2
-Stack trace:
-#0 phar:///var/www/project/library/Zend.phar/Zend/Db/Adapter/Abstract.php(2): Zend_Db_Adapter_Abstract->_checkRequiredOptions(Array)
-#1 phar:///var/www/project/library/Zend.phar/Zend/Db.php(2): Zend_Db_Adapter_Abstract->__construct(Array)
-#2 phar:///var/www/project/library/Zend.phar/Zend/Application/Resource/Multidb.php(2): Zend_Db::factory('mysqli', Array)
-#3 phar:///var/www/project/library/Zend.phar/Zend/Application/Bootstrap/BootstrapAbstract.php(2): Zend_Application_Resource_Multidb->init()
-#4 phar:///var/www/project/library/Zend.phar/Zend/Application/Bootstrap/BootstrapAbstract.php(2): Zend_Application_Bootstrap_BootstrapAbstract->_executeResource('multidb')
-#5 phar:///var/www/project/library/Zend.phar/Zend/Application/Bootstrap/BootstrapAbstract.php(2): Zend_Application_Boot in phar:///var/www/project/library/Zend.phar/Zend/Db/Adapter/Abstract.php on line 2
+[17-Mar-2015 22:03:46 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\IndexController.php on line 5
+[17-Mar-2015 22:05:30 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[17-Mar-2015 22:05:38 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\MateriasController.php on line 7
+[17-Mar-2015 22:25:31 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\MateriasController.php on line 7
+[17-Mar-2015 22:25:33 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\MateriasController.php on line 7
+[17-Mar-2015 22:28:45 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[17-Mar-2015 22:31:31 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[17-Mar-2015 22:31:32 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[17-Mar-2015 22:31:33 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[17-Mar-2015 22:31:33 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[17-Mar-2015 22:31:33 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[17-Mar-2015 22:32:34 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[17-Mar-2015 22:32:35 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[17-Mar-2015 22:33:03 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[17-Mar-2015 22:33:04 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[17-Mar-2015 22:33:37 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[17-Mar-2015 22:33:38 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[17-Mar-2015 22:33:39 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[17-Mar-2015 22:33:39 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[17-Mar-2015 22:34:33 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[17-Mar-2015 22:34:34 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[17-Mar-2015 22:34:35 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[17-Mar-2015 22:34:35 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[17-Mar-2015 22:34:36 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[17-Mar-2015 22:34:36 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[17-Mar-2015 22:34:37 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[17-Mar-2015 22:36:48 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[17-Mar-2015 22:37:57 America/New_York] PHP Notice:  Array to string conversion in C:\xampp\htdocs\project\application\controllers\MateriasController.php on line 18
+[17-Mar-2015 22:37:57 America/New_York] PHP Notice:  Undefined variable: out in C:\xampp\htdocs\project\application\views\scripts\materias\index.phtml on line 3
+[17-Mar-2015 22:37:57 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[17-Mar-2015 22:37:58 America/New_York] PHP Notice:  Array to string conversion in C:\xampp\htdocs\project\application\controllers\MateriasController.php on line 18
+[17-Mar-2015 22:37:58 America/New_York] PHP Notice:  Undefined variable: out in C:\xampp\htdocs\project\application\views\scripts\materias\index.phtml on line 3
+[17-Mar-2015 22:37:58 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[17-Mar-2015 22:37:58 America/New_York] PHP Notice:  Array to string conversion in C:\xampp\htdocs\project\application\controllers\MateriasController.php on line 18
+[17-Mar-2015 22:37:58 America/New_York] PHP Notice:  Undefined variable: out in C:\xampp\htdocs\project\application\views\scripts\materias\index.phtml on line 3
+[17-Mar-2015 22:37:59 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[17-Mar-2015 22:37:59 America/New_York] PHP Notice:  Array to string conversion in C:\xampp\htdocs\project\application\controllers\MateriasController.php on line 18
+[17-Mar-2015 22:37:59 America/New_York] PHP Notice:  Undefined variable: out in C:\xampp\htdocs\project\application\views\scripts\materias\index.phtml on line 3
+[17-Mar-2015 22:37:59 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[20-Mar-2015 19:57:29 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[20-Mar-2015 19:57:29 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[20-Mar-2015 20:01:19 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[20-Mar-2015 20:01:19 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[20-Mar-2015 20:01:21 America/New_York] PHP Notice:  Array to string conversion in C:\xampp\htdocs\project\application\controllers\MateriasController.php on line 18
+[20-Mar-2015 20:01:21 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[20-Mar-2015 20:01:21 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[20-Mar-2015 20:01:30 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[20-Mar-2015 20:01:57 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[20-Mar-2015 20:01:57 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[20-Mar-2015 20:02:55 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[20-Mar-2015 20:02:58 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[20-Mar-2015 20:02:59 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[20-Mar-2015 20:08:11 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[20-Mar-2015 20:08:11 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[20-Mar-2015 20:08:12 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[20-Mar-2015 20:08:12 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[20-Mar-2015 20:08:13 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[20-Mar-2015 20:08:13 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[20-Mar-2015 20:08:15 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[20-Mar-2015 20:08:15 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[20-Mar-2015 20:08:16 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[20-Mar-2015 20:08:16 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[20-Mar-2015 20:08:16 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[20-Mar-2015 20:08:16 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[20-Mar-2015 20:08:16 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[20-Mar-2015 20:08:16 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[20-Mar-2015 20:08:17 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[20-Mar-2015 20:08:17 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[20-Mar-2015 20:08:17 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[20-Mar-2015 20:08:17 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[20-Mar-2015 20:08:17 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[20-Mar-2015 20:08:17 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[20-Mar-2015 20:08:17 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[20-Mar-2015 20:08:17 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[20-Mar-2015 20:08:53 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[21-Mar-2015 17:53:53 America/New_York] PHP Notice:  Array to string conversion in C:\xampp\htdocs\project\application\controllers\MateriasController.php on line 18
+[21-Mar-2015 17:53:53 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[21-Mar-2015 17:53:53 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[21-Mar-2015 17:54:01 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[21-Mar-2015 17:54:01 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[21-Mar-2015 17:56:40 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[21-Mar-2015 17:56:40 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[21-Mar-2015 18:10:06 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[21-Mar-2015 18:10:06 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[21-Mar-2015 18:12:18 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[21-Mar-2015 18:12:18 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[21-Mar-2015 18:12:20 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[21-Mar-2015 18:12:20 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[21-Mar-2015 18:12:32 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[21-Mar-2015 18:12:32 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[21-Mar-2015 18:12:48 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[21-Mar-2015 18:12:48 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[21-Mar-2015 18:14:32 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[21-Mar-2015 18:14:32 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[23-Mar-2015 16:15:18 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[23-Mar-2015 16:15:18 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[23-Mar-2015 16:15:29 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[23-Mar-2015 16:15:29 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[23-Mar-2015 16:15:39 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[23-Mar-2015 16:15:39 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:07:49 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:07:49 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:07:51 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:07:51 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:07:56 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:08:33 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:08:33 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:16:21 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:16:21 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:16:22 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:16:22 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:16:22 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:16:22 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:16:23 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:16:23 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:16:42 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:16:43 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:16:44 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:16:47 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:16:48 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:16:48 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:17:31 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:18:36 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:18:36 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:18:45 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:18:56 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:18:58 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:18:59 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:19:00 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:20:37 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:20:37 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:20:38 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:20:38 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:20:38 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:20:38 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:22:35 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:22:36 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:22:37 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:22:37 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:22:37 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:22:38 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:22:46 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:22:47 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:22:50 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:23:15 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:23:16 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:23:17 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:23:17 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:23:18 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:23:18 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:23:18 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:23:18 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:23:33 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:23:34 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:23:35 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:23:50 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:23:51 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:23:52 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:24:04 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:24:05 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:24:05 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:24:06 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:24:06 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:24:07 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:24:07 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:24:15 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:26:45 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:26:46 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:26:49 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:26:51 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:29:56 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:29:57 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:29:59 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:30:00 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:30:00 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:30:00 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:30:00 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:31:53 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:31:53 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:31:53 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:31:54 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:34:47 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:34:48 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:34:49 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:34:54 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:34:55 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:34:55 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:34:55 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:34:56 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:34:56 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:34:56 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:34:56 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:35:37 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:35:38 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:35:55 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:35:56 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:35:57 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:36:01 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:36:09 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:37:09 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:37:10 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:37:11 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:37:12 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:37:15 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:37:16 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:37:22 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:37:22 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:37:22 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:37:23 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:37:23 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:38:21 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:38:22 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:38:23 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:38:23 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:38:23 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:38:24 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:38:24 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:38:24 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:38:24 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:38:25 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:40:55 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:40:56 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:40:57 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:40:58 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:40:59 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:41:00 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:41:01 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:41:02 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:41:03 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:41:04 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:41:06 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:41:10 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:41:11 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:41:12 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:41:13 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:41:13 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:41:14 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:41:14 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:41:14 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:41:15 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:41:15 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:41:15 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:41:16 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:41:16 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:41:16 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[24-Mar-2015 15:41:17 America/New_York] PHP Fatal error:  Class 'DbTable_Model' not found in C:\xampp\htdocs\project\application\controllers\ErrorController.php on line 8
+[26-Mar-2015 22:05:45 America/New_York] PHP Warning:  include_once(DbTable\Alumnos.php): failed to open stream: No such file or directory in phar://C:/xampp/htdocs/project/library/Zend.phar/Zend/Loader.php on line 2
+[26-Mar-2015 22:05:45 America/New_York] PHP Warning:  include_once(): Failed opening 'DbTable\Alumnos.php' for inclusion (include_path='C:\xampp\htdocs\project\library;C:\xampp\htdocs\project\application\models;C:\xampp\htdocs\project\application\forms;phar://C:/xampp/htdocs/project/library/Zend.phar;.;C:\xampp\php\PEAR') in phar://C:/xampp/htdocs/project/library/Zend.phar/Zend/Loader.php on line 2
+[26-Mar-2015 22:05:45 America/New_York] PHP Fatal error:  Class 'DbTable_Alumnos' not found in C:\xampp\htdocs\project\application\controllers\AlumnosController.php on line 7
+[26-Mar-2015 22:14:13 America/New_York] PHP Notice:  Array to string conversion in C:\xampp\htdocs\project\application\controllers\AlumnosController.php on line 13
+[26-Mar-2015 22:14:53 America/New_York] PHP Notice:  Array to string conversion in C:\xampp\htdocs\project\application\controllers\AlumnosController.php on line 12
+[26-Mar-2015 22:17:11 America/New_York] PHP Notice:  Trying to get property of non-object in C:\xampp\htdocs\project\application\views\scripts\alumnos\index.phtml on line 1
+[26-Mar-2015 22:36:12 America/New_York] PHP Notice:  Array to string conversion in C:\xampp\htdocs\project\application\controllers\MateriasController.php on line 18
+[28-Mar-2015 18:27:21 America/New_York] PHP Warning:  Missing argument 1 for AlumnosController::buscarAction(), called in phar://C:/xampp/htdocs/project/library/Zend.phar/Zend/Controller/Action.php on line 2 and defined in C:\xampp\htdocs\project\application\controllers\AlumnosController.php on line 16
+[28-Mar-2015 18:27:21 America/New_York] PHP Notice:  Undefined variable: id in C:\xampp\htdocs\project\application\controllers\AlumnosController.php on line 18
+[28-Mar-2015 18:30:22 America/New_York] PHP Warning:  mysqli::real_escape_string() expects parameter 1 to be string, object given in phar://C:/xampp/htdocs/project/library/Zend.phar/Zend/Db/Adapter/Mysqli.php on line 2
+[28-Mar-2015 18:30:27 America/New_York] PHP Warning:  mysqli::real_escape_string() expects parameter 1 to be string, object given in phar://C:/xampp/htdocs/project/library/Zend.phar/Zend/Db/Adapter/Mysqli.php on line 2
+[28-Mar-2015 18:30:32 America/New_York] PHP Warning:  mysqli::real_escape_string() expects parameter 1 to be string, object given in phar://C:/xampp/htdocs/project/library/Zend.phar/Zend/Db/Adapter/Mysqli.php on line 2
+[28-Mar-2015 18:34:11 America/New_York] PHP Warning:  Missing argument 1 for AlumnosController::buscarAction(), called in phar://C:/xampp/htdocs/project/library/Zend.phar/Zend/Controller/Action.php on line 2 and defined in C:\xampp\htdocs\project\application\controllers\AlumnosController.php on line 16
+[28-Mar-2015 18:34:11 America/New_York] PHP Notice:  Undefined variable: id in C:\xampp\htdocs\project\application\controllers\AlumnosController.php on line 18
+[28-Mar-2015 18:34:12 America/New_York] PHP Warning:  Missing argument 1 for AlumnosController::buscarAction(), called in phar://C:/xampp/htdocs/project/library/Zend.phar/Zend/Controller/Action.php on line 2 and defined in C:\xampp\htdocs\project\application\controllers\AlumnosController.php on line 16
+[28-Mar-2015 18:34:12 America/New_York] PHP Notice:  Undefined variable: id in C:\xampp\htdocs\project\application\controllers\AlumnosController.php on line 18
+[28-Mar-2015 18:34:21 America/New_York] PHP Warning:  Missing argument 1 for AlumnosController::buscarAction(), called in phar://C:/xampp/htdocs/project/library/Zend.phar/Zend/Controller/Action.php on line 2 and defined in C:\xampp\htdocs\project\application\controllers\AlumnosController.php on line 16
+[28-Mar-2015 18:34:21 America/New_York] PHP Notice:  Undefined variable: id in C:\xampp\htdocs\project\application\controllers\AlumnosController.php on line 18
+[28-Mar-2015 18:34:53 America/New_York] PHP Warning:  Missing argument 1 for AlumnosController::buscarAction(), called in phar://C:/xampp/htdocs/project/library/Zend.phar/Zend/Controller/Action.php on line 2 and defined in C:\xampp\htdocs\project\application\controllers\AlumnosController.php on line 16
+[28-Mar-2015 18:34:53 America/New_York] PHP Notice:  Undefined variable: id in C:\xampp\htdocs\project\application\controllers\AlumnosController.php on line 18
+[28-Mar-2015 18:47:15 America/New_York] PHP Notice:  Undefined variable: value in C:\xampp\htdocs\project\application\models\DbTable\Alumnos.php on line 29
+[28-Mar-2015 18:47:15 America/New_York] PHP Notice:  Undefined variable: value in C:\xampp\htdocs\project\application\models\DbTable\Alumnos.php on line 32
+[28-Mar-2015 18:48:19 America/New_York] PHP Notice:  Undefined variable: value in C:\xampp\htdocs\project\application\models\DbTable\Alumnos.php on line 29
+[28-Mar-2015 18:48:19 America/New_York] PHP Notice:  Undefined variable: value in C:\xampp\htdocs\project\application\models\DbTable\Alumnos.php on line 32
+[28-Mar-2015 19:00:39 America/New_York] PHP Notice:  Undefined variable: value in C:\xampp\htdocs\project\application\models\DbTable\Alumnos.php on line 29
+[28-Mar-2015 19:00:39 America/New_York] PHP Notice:  Undefined variable: value in C:\xampp\htdocs\project\application\models\DbTable\Alumnos.php on line 32
+[28-Mar-2015 19:07:25 America/New_York] PHP Notice:  Undefined variable: value in C:\xampp\htdocs\project\application\models\DbTable\Alumnos.php on line 29
+[28-Mar-2015 19:07:25 America/New_York] PHP Notice:  Undefined variable: value in C:\xampp\htdocs\project\application\models\DbTable\Alumnos.php on line 32
+[28-Mar-2015 19:14:31 America/New_York] PHP Notice:  Undefined variable: value in C:\xampp\htdocs\project\application\models\DbTable\Alumnos.php on line 29
+[28-Mar-2015 19:14:31 America/New_York] PHP Warning:  include_once(Sql.php): failed to open stream: No such file or directory in phar://C:/xampp/htdocs/project/library/Zend.phar/Zend/Loader.php on line 2
+[28-Mar-2015 19:14:31 America/New_York] PHP Warning:  include_once(): Failed opening 'Sql.php' for inclusion (include_path='C:\xampp\htdocs\project\library;C:\xampp\htdocs\project\application\models;C:\xampp\htdocs\project\application\forms;phar://C:/xampp/htdocs/project/library/Zend.phar;.;C:\xampp\php\PEAR') in phar://C:/xampp/htdocs/project/library/Zend.phar/Zend/Loader.php on line 2
+[28-Mar-2015 19:14:31 America/New_York] PHP Fatal error:  Class 'Sql' not found in C:\xampp\htdocs\project\application\models\DbTable\Alumnos.php on line 31
+[01-Apr-2015 21:44:16 America/New_York] PHP Notice:  Array to string conversion in C:\xampp\htdocs\project\application\controllers\MateriasController.php on line 18
+[01-Apr-2015 22:06:54 America/New_York] PHP Notice:  Array to string conversion in C:\xampp\htdocs\project\application\controllers\MateriasController.php on line 18

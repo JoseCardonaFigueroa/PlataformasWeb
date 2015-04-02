@@ -1,4 +1,4 @@
-<?
+<?php
 class DbTable_Model extends Custom_Db_Table_Abstract
 {
 
@@ -37,4 +37,3 @@ class DbTable_Model extends Custom_Db_Table_Abstract
 	}
 
 }
-?>
