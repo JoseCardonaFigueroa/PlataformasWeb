@@ -1,12 +1,39 @@
-<?php echo var_dump($this->out);?>
 <div class="container" align="center">
-    <h2>Control alumnos</h2><hr>
-    <div id="accordion">
+  <h2>Lista de Alumnos</h2>
+  <div id="accordion">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>Grado</th>
+          <th>Fecha de nacimiento</th>
+        </tr>
+      </thead>
+      <tbody>
+        <?php foreach($this->out["data"] as $datosAlumnos): ?>
+          <tr>
+            <td>
+            </td>
+            <td>
+              <?php echo $datosAlumnos['nombre']." ".$datosAlumnos['ap_pat']." ".$datosAlumnos['ap_mat'];?>
+            </td>
+            <td>
+              <?php echo $datosAlumnos['grado'];?>
+            </td>
+            <td>
+              <?php echo (date("d-m-Y", (strtotime($datosAlumnos['fecha_nacimiento']))));?>
+            </td>
+          </tr>
+        <?php endforeach;?>
+      </tbody>
+    </table>
 
     <div align="right">
-        <!-- Ir a pantalla de DAR DE ALTA -->
-        <a href="" target="_self"> <input type="button" class="btn btn-primary" name="boton" value="Agregar" /> </a>
+      <!-- Ir a pantalla de DAR DE ALTA -->
+      <a href="add" target=""> <input type="button" class="btn btn-primary" name="boton" value="Agregar" /> </a>
         <!-- Regresar a pantalla anterior -->
-        <a href="" target="_self"> <input type="button" class="btn btn-danger" name="boton" value="Cancelar" /> </a>
+      <a href="" target="_self"> <input type="button" class="btn btn-danger" name="boton" value="Cancelar" /> </a>
     </div>
+  </div>
 </div>
