@@ -1,5 +1,6 @@
 <?php
 
+//Controlador para el módulo de alumnos
 class AlumnosController extends Zend_Controller_Action {
 
     private $_model = null;
@@ -8,17 +9,20 @@ class AlumnosController extends Zend_Controller_Action {
       $this->_model = new DbTable_Alumnos();
     }
 
+    //Función para que muestre todos los alumnos al principio de la página
     public function indexAction() {
       $out = $this->_model->getAll();
       $this->view->out = $out;
     }
 
+    //Función para obtener un registro de la BD
     public function getAction() {
       $id=1;
       $out= $this->_model->getByID($id);
       $this->view->outs=$out;
     }
 
+    //Función para actualizar la información de un alumno
     public function updateAction(){
       $id=1;
       $this->_model->updateByID($id);
@@ -26,9 +30,11 @@ class AlumnosController extends Zend_Controller_Action {
       $this->view->out=$out;
     }
 
+    //Función que solo sirve para mostrar la vista de add
     public function addAction(){
 
     }
+
     public function setAction() {
       //Variables dónde se guardan los datos enviados desde el formulario
       $nombre = $this->getRequest()->getParam("nombre", null);
@@ -59,6 +65,7 @@ class AlumnosController extends Zend_Controller_Action {
       $this->view->out = $out;
     }
 
+    //Función que sirve para borrar un registro específico de la BD
     public function deleteAction(){
       $id=3;
       $this->_model->deleteByID($id);
