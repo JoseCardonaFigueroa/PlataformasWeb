@@ -1,19 +1,30 @@
+<script>
+  $(document).ready(function(){
+    $('.btn-link').click(function(){
+      console.log(this.id);
+      //$('#id-eliminar').val(this.id)
+      window.location = "http://projectzend.localhost/Alumnos/delete?q="+this.id;
+    });
+  });
+</script>
 <div class="container" align="center">
-  <h2>Lista de Alumnos</h2>
+  <h2 id="id_alumno_head">Lista de Alumnos</h2>
   <div id="accordion">
-    <table class="table">
+    <table class="table table-hover">
       <thead>
         <tr>
           <th>ID</th>
           <th>Nombre</th>
           <th>Grado</th>
           <th>Fecha de nacimiento</th>
+          <th></th>
         </tr>
       </thead>
       <tbody>
         <?php foreach($this->out["data"] as $datosAlumnos): ?>
           <tr>
             <td>
+              <?php echo $datosAlumnos['id_alumno']?>
             </td>
             <td>
               <?php echo $datosAlumnos['nombre']." ".$datosAlumnos['ap_pat']." ".$datosAlumnos['ap_mat'];?>
@@ -24,11 +35,13 @@
             <td>
               <?php echo (date("d-m-Y", (strtotime($datosAlumnos['fecha_nacimiento']))));?>
             </td>
+            <td>
+              <a class="btn btn-link" id="<?php echo $datosAlumnos['id_alumno']?>">Eliminar</a>
+            </td>
           </tr>
         <?php endforeach;?>
       </tbody>
     </table>
-
     <div align="right">
       <!-- Ir a pantalla de DAR DE ALTA -->
       <a href="add" target=""> <input type="button" class="btn btn-primary" name="boton" value="Agregar" /> </a>

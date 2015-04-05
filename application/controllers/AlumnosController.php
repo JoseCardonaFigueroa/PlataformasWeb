@@ -7,6 +7,10 @@ class AlumnosController extends Zend_Controller_Action {
 
     public function init() {
       $this->_model = new DbTable_Alumnos();
+      $ajaxContext = $this->_helper->getHelper('AjaxContext');
+	    $ajaxContext->addActionContext('list', 'html')
+	                ->addActionContext('modify', 'html')
+                  ->initContext();
     }
 
     //Función para que muestre todos los alumnos al principio de la página
@@ -67,9 +71,7 @@ class AlumnosController extends Zend_Controller_Action {
 
     //Función que sirve para borrar un registro específico de la BD
     public function deleteAction(){
-      $id=3;
+      $id= $this->getRequest()->getParam("q", null);
       $this->_model->deleteByID($id);
-      $out="Delete Exitoso";
-      $this->view->out=$out;
     }
 }

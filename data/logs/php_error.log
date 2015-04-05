@@ -477,3 +477,4 @@ Stack trace:
 [28-Mar-2015 19:14:31 America/New_York] PHP Fatal error:  Class 'Sql' not found in C:\xampp\htdocs\project\application\models\DbTable\Alumnos.php on line 31
 [01-Apr-2015 21:44:16 America/New_York] PHP Notice:  Array to string conversion in C:\xampp\htdocs\project\application\controllers\MateriasController.php on line 18
 [01-Apr-2015 22:06:54 America/New_York] PHP Notice:  Array to string conversion in C:\xampp\htdocs\project\application\controllers\MateriasController.php on line 18
+[03-Apr-2015 23:09:38 America/New_York] PHP Notice:  Undefined index: id_alumno in C:\xampp\htdocs\PlataformasWeb\application\views\scripts\alumnos\index.phtml on line 1
