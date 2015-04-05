@@ -5,6 +5,10 @@
       //$('#id-eliminar').val(this.id)
       window.location = "http://projectzend.localhost/Alumnos/delete?q="+this.id;
     });
+    $('.btn-warning').click(function(){
+      console.log(this.id);
+      window.location = "http://projectzend.localhost/Alumnos/formupdate?q="+this.id;
+    })
   });
 </script>
 <div class="container" align="center">
@@ -17,6 +21,7 @@
           <th>Nombre</th>
           <th>Grado</th>
           <th>Fecha de nacimiento</th>
+          <th></th>
           <th></th>
         </tr>
       </thead>
@@ -36,7 +41,10 @@
               <?php echo (date("d-m-Y", (strtotime($datosAlumnos['fecha_nacimiento']))));?>
             </td>
             <td>
-              <a class="btn btn-link" id="<?php echo $datosAlumnos['id_alumno']?>">Eliminar</a>
+              <button class="btn btn-link" id="<?php echo $datosAlumnos['id_alumno']?>">Eliminar</button>
+            </td>
+            <td>
+              <button class="btn btn-warning" id="<?php echo $datosAlumnos['id_alumno']?>">Modificar</button>
             </td>
           </tr>
         <?php endforeach;?>

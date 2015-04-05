@@ -28,10 +28,29 @@ class AlumnosController extends Zend_Controller_Action {
 
     //Función para actualizar la información de un alumno
     public function updateAction(){
-      $id=1;
-      $this->_model->updateByID($id);
-      $out="Update Exitoso";
-      $this->view->out=$out;
+      $id=$this->getRequest()->getParam("id_a_modificar", null);
+
+      $nombre = $this->getRequest()->getParam("nombre", null);
+      $ap_pat = $this->getRequest()->getParam("ap_pat", null);
+      $ap_mat = $this->getRequest()->getParam("ap_mat", null);
+      $grado = $this->getRequest()->getParam("grado", null);
+      $fecha_nacimiento_dia = $this->getRequest()->getParam("fecha_nacimiento_dia", null);
+      $fecha_nacimiento_mes = $this->getRequest()->getParam("fecha_nacimiento_mes", null);
+      $fecha_nacimiento_año = $this->getRequest()->getParam("fecha_nacimiento_año", null);
+
+      //Variable para estructurar la fecha de nacimiento del alumno y guardarla en la BD
+      $fecha_nacimiento = date("Y-m-d", strtotime($fecha_nacimiento_año."-".$fecha_nacimiento_mes."-".$fecha_nacimiento_dia));
+
+      //Array que contiene los datos que van a ser guardados en la BD
+      $data = array(
+        'nombre' => $nombre,
+        'ap_pat' => $ap_pat,
+        'ap_mat' => $ap_mat,
+        'grado' => $grado,
+        'fecha_nacimiento'=> $fecha_nacimiento
+      );
+      $this->_model->updateById($id, $data);
+
     }
 
     //Función que solo sirve para mostrar la vista de add
@@ -73,5 +92,9 @@ class AlumnosController extends Zend_Controller_Action {
     public function deleteAction(){
       $id= $this->getRequest()->getParam("q", null);
       $this->_model->deleteByID($id);
+    }
+    public function formupdateAction(){
+      $id= $this->getRequest()->getParam("q", null);
+      $this->view->out = $id;
     }
 }

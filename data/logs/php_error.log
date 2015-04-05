@@ -478,3 +478,10 @@ Stack trace:
 [01-Apr-2015 21:44:16 America/New_York] PHP Notice:  Array to string conversion in C:\xampp\htdocs\project\application\controllers\MateriasController.php on line 18
 [01-Apr-2015 22:06:54 America/New_York] PHP Notice:  Array to string conversion in C:\xampp\htdocs\project\application\controllers\MateriasController.php on line 18
 [03-Apr-2015 23:09:38 America/New_York] PHP Notice:  Undefined index: id_alumno in C:\xampp\htdocs\PlataformasWeb\application\views\scripts\alumnos\index.phtml on line 1
+[05-Apr-2015 09:48:45 America/New_York] PHP Notice:  Undefined variable: out in C:\xampp\htdocs\PlataformasWeb\application\controllers\AlumnosController.php on line 32
+[05-Apr-2015 09:48:45 America/New_York] PHP Notice:  Undefined variable: db in C:\xampp\htdocs\PlataformasWeb\application\controllers\AlumnosController.php on line 53
+[05-Apr-2015 09:48:45 America/New_York] PHP Fatal error:  Call to a member function quoteInfo() on null in C:\xampp\htdocs\PlataformasWeb\application\controllers\AlumnosController.php on line 53
+[05-Apr-2015 09:52:47 America/New_York] PHP Notice:  Undefined variable: db in C:\xampp\htdocs\PlataformasWeb\application\controllers\AlumnosController.php on line 52
+[05-Apr-2015 09:52:47 America/New_York] PHP Fatal error:  Call to a member function quoteInfo() on null in C:\xampp\htdocs\PlataformasWeb\application\controllers\AlumnosController.php on line 52
+[05-Apr-2015 09:57:05 America/New_York] PHP Catchable fatal error:  Argument 1 passed to Zend_Db_Table_Abstract::update() must be of the type array, string given, called in C:\xampp\htdocs\PlataformasWeb\application\controllers\AlumnosController.php on line 52 and defined in phar://C:/xampp/htdocs/PlataformasWeb/library/Zend.phar/Zend/Db/Table/Abstract.php on line 2
+[05-Apr-2015 09:59:32 America/New_York] PHP Catchable fatal error:  Argument 1 passed to Zend_Db_Table_Abstract::update() must be of the type array, string given, called in C:\xampp\htdocs\PlataformasWeb\application\controllers\AlumnosController.php on line 52 and defined in phar://C:/xampp/htdocs/PlataformasWeb/library/Zend.phar/Zend/Db/Table/Abstract.php on line 2

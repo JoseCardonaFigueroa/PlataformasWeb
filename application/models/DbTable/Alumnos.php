@@ -24,17 +24,15 @@ class DbTable_Alumnos extends Custom_Db_Table_Abstract {
         return array('data' => $select);
     }
 
-    public function updateByID($id) {
-        $data = array(
-            'nombre' => 'Gustavo');
-
+    public function updateByID($id, $data) {
+        
         $where['id_alumno = ?'] = $id;
         $this->_db->update($this->_name, $data, $where);
     }
-    
+
     public function deleteByID($id){
         $where['id_alumno = ?'] = $id;
         $this->_db->delete($this->_name,$where);
-        
+
     }
 }

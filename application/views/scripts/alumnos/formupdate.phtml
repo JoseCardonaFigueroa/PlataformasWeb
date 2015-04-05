@@ -1,0 +1,53 @@
+<!---
+  Formulario en el se pide información básica para dar de alta el alumno
+
+-->
+<h1>Actualizar información del alumno <?php echo $this->out;?></h1>
+<form class="form-horizontal" method="post" action="update">
+  <input type="hidden" name="id_a_modificar" value="<?php echo $this->out;?>">
+  <div class="form-group">
+    <label for="nombre" class="col-sm-2 control-label">Nombre(s) : </label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="nombre" name="nombre" placeholder="José" required>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="ap_pat" class="col-sm-2 control-label">Apellido Paterno:</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="ap_pat" name="ap_pat" placeholder="Cardona" required>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="ap_mat" class="col-sm-2 control-label">Apellido Materno: </label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="ap_mat" name="ap_mat" placeholder="Figueroa">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="grado" class="col-sm-2 control-label">Grado:</label>
+    <div class="col-sm-10">
+      <select  required class="form-control" id="grado" name="grado">
+        <option value="xx"></option>
+        <option value="1">Primero</option>
+        <option value="2">Segundo</option>
+        <option value="3">Tercero</option>
+        <option value="4">Cuarto</option>
+        <option value="5">Quinto</option>
+        <option value="6">Sexto</option>
+      </select>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="fecha_nacimiento_año" class="col-sm-2 control-label">Fecha de nacimiento:</label>
+    <div class="col-sm-1">
+      <input type="text" class="form-control" id="fecha_nacimiento_año" name="fecha_nacimiento_dia" placeholder="AAAA" required>
+    </div>
+    <div class="col-sm-1">
+      <input type="text" class="form-control" id="fecha_nacimiento_mes" name="fecha_nacimiento_mes" placeholder="mm" required>
+    </div>
+    <div class="col-sm-1">
+      <input type="text" class="form-control" id="fecha_nacimiento_dia" name="fecha_nacimiento_año" placeholder="dd" required>
+    </div>
+  </div>
+  <button class="btn btn-success">Actualizar alumno</button>
+<form>
